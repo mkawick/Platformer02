@@ -13,6 +13,12 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.dll
+*.pdb
+
+[Ll]ibrary/
+[Pp]latformer02_Data/Managed/
+[Tt]emp/
 
 # Windows shortcuts
 *.lnk
