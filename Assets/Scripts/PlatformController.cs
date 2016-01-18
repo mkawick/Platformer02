@@ -61,6 +61,9 @@ public class PlatformController : RaycastController {
 			return Vector3.zero;
 		}
 
+		if( globalWaypoints.Length < 1 )
+			return Vector3.zero;
+
 		//return move * Time.deltaTime;
 		int toWaypointIndex = fromWaypointIndex + 1;
 		if( toWaypointIndex >= globalWaypoints.Length ) {
